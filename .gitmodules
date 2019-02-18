@@ -7,3 +7,6 @@
 [submodule "CSharp.Saude.FitbitTask"]
 	path = CSharp.Saude.FitbitTask
 	url = https://github.com/vinils/CSharp.Saude.FitbitTask.git
+[submodule "CSharp.Politica.PrfOsascoTask"]
+	path = CSharp.Politica.PrfOsascoTask
+	url = https://github.com/vinils/CSharp.Politica.PrfOsascoTask.git

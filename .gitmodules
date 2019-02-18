@@ -1,0 +1,9 @@
+[submodule "CSharp.Data.Client"]
+	path = CSharp.Data.Client
+	url = https://github.com/vinils/CSharp.Data.Client.git
+[submodule "CSharp.Data.Service"]
+	path = CSharp.Data.Service
+	url = https://github.com/vinils/CSharp.Data.Service.git
+[submodule "CSharp.Saude.FitbitTask"]
+	path = CSharp.Saude.FitbitTask
+	url = https://github.com/vinils/CSharp.Saude.FitbitTask.git

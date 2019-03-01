@@ -10,3 +10,6 @@
 [submodule "CSharp.Politica.PrfOsascoTask"]
 	path = CSharp.Politica.PrfOsascoTask
 	url = https://github.com/vinils/CSharp.Politica.PrfOsascoTask.git
+[submodule "CSharp.Politica.DeputadosTask"]
+	path = CSharp.Politica.DeputadosTask
+	url = https://github.com/vinils/CSharp.Politica.DeputadosTask.git

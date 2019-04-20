@@ -10,12 +10,29 @@ namespace CSharp.Data.Task
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            //var mappedDatas = new List<global::Data.Models.Data>();
+            //var info = Saude.FitbitTask.Info.Load();
+            ////Saude.FitbitTask.RequestToken.Test(info);
+            //Saude.FitbitTask.Program.LoadAllSleep(info);
+            //Saude.FitbitTask.Program.LoadAllHeartRate(info);
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+
+
+
+            //var datas = RequestData.Test(info);
+            //Saude.FitbitTask.Program.Main(args);
+
+
+            Politica.PrfOsascoTask.Program.Main(args);
+            Politica.DeputadosTask.Program.Main(args);
+
+
+            //// The code provided will print ‘Hello World’ to the console.
+            //// Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
+            //Console.WriteLine("Hello World!");
+            //Console.ReadKey();
+
+            //// Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
     }
 }

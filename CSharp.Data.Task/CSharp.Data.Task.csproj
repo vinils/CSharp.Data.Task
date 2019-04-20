@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CSharp.Data.Task</RootNamespace>
     <AssemblyName>CSharp.Data.Task</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSharp.Data.Client\CSharp.Data.Client\CSharp.Data.Client.csproj">
+      <Project>{679caed8-ee91-4117-a573-31171c4e652a}</Project>
+      <Name>CSharp.Data.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharp.Politica.DeputadosTask\CSharp.Politica.DeputadosTask\CSharp.Politica.DeputadosTask.csproj">
+      <Project>{25da0bfc-7371-41d7-9c89-b51d87630195}</Project>
+      <Name>CSharp.Politica.DeputadosTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharp.Politica.PrfOsascoTask\CSharp.Politica.PrfOsascoTask\CSharp.Politica.PrfOsascoTask.csproj">
+      <Project>{a04dd3cb-1bb5-4cb0-9106-48a7d4c6f044}</Project>
+      <Name>CSharp.Politica.PrfOsascoTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharp.Saude.FitbitTask\CSharp.Saude.FitbitTask\CSharp.Saude.FitbitTask.csproj">
+      <Project>{ae8d8e8c-18c9-40b1-994d-49dbc7690319}</Project>
+      <Name>CSharp.Saude.FitbitTask</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

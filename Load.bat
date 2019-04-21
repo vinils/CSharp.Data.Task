@@ -1,11 +1,6 @@
 git submodule foreach git checkout master
 pause
 
-nuget restore CSharp.Data.Service\CSharp.Data.Service.sln
-pause
-msbuild CSharp.Data.Service\CSharp.Data.Service.sln
-pause
-
 nuget restore CSharp.Politica.DeputadosTask\CSharp.Data.Client\CSharp.Data.Client.sln
 pause
 msbuild CSharp.Politica.DeputadosTask\CSharp.Data.Client\CSharp.Data.Client.sln
@@ -42,3 +37,7 @@ nuget restore
 pause
 msbuild
 pause
+
+nuget restore CSharp.Data.Service\CSharp.Data.Service.sln
+pause
+msbuild CSharp.Data.Service\CSharp.Data.Service.sln

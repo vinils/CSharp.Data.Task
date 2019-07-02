@@ -54,6 +54,10 @@
       <Project>{679caed8-ee91-4117-a573-31171c4e652a}</Project>
       <Name>CSharp.Data.Client</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CSharp.Financial.Stocks.Task\CSharp.Financial.Stocks.Task\CSharp.Financial.Stocks.Task.csproj">
+      <Project>{a023394f-d2c7-43a5-b68e-443995f073e7}</Project>
+      <Name>CSharp.Financial.Stocks.Task</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CSharp.Politica.DeputadosTask\CSharp.Politica.DeputadosTask\CSharp.Politica.DeputadosTask.csproj">
       <Project>{25da0bfc-7371-41d7-9c89-b51d87630195}</Project>
       <Name>CSharp.Politica.DeputadosTask</Name>

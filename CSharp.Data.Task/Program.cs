@@ -21,10 +21,9 @@ namespace CSharp.Data.Task
 
             //var datas = RequestData.Test(info);
             //Saude.FitbitTask.Program.Main(args);
-
-
             Politica.PrfOsascoTask.Program.Main(args);
             Politica.DeputadosTask.Program.Main(args);
+            Financial.Stocks.Task.Program.Main(args);
 
 
             //// The code provided will print ‘Hello World’ to the console.

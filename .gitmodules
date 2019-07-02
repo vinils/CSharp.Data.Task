@@ -13,3 +13,9 @@
 [submodule "CSharp.Politica.DeputadosTask"]
 	path = CSharp.Politica.DeputadosTask
 	url = https://github.com/vinils/CSharp.Politica.DeputadosTask.git
+[submodule "CSharp.Financial.Stocks.Task"]
+	path = CSharp.Financial.Stocks.Task
+	url = https://github.com/vinils/CSharp.Financial.Stocks.Task.git
+[submodule "CSharp.MercadoFinanceiro"]
+	path = CSharp.MercadoFinanceiro
+	url = https://github.com/vinils/CSharp.MercadoFinanceiro.git

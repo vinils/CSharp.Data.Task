@@ -41,3 +41,16 @@ pause
 nuget restore CSharp.Data.Service\CSharp.Data.Service.sln
 pause
 msbuild CSharp.Data.Service\CSharp.Data.Service.sln
+
+nuget restore CSharp.Financial.Stocks.Task\CSharp.Data.Client\CSharp.Data.Client.sln
+pause
+msbuild CSharp.Financial.Stocks.Task\CSharp.Data.Client\CSharp.Data.Client.sln
+pause
+nuget restore CSharp.MercadoFinanceiro\CSharp.MercadoFinanceiro.csproj
+pause
+::msbuild CSharp.MercadoFinanceiro\CSharp.MercadoFinanceiro.csproj
+::pause
+nuget restore CSharp.Financial.Stocks.Task\CSharp.Financial.Stocks.Task.sln
+pause
+msbuild CSharp.Financial.Stocks.Task\CSharp.Financial.Stocks.Task.sln
+pause
